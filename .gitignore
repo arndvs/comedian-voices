@@ -10,3 +10,22 @@ Thumbs.db
 *.local.md
 .env
 .env.*
+!.env.example
+
+# Raw source material (books, transcripts) — stay local, never commit
+source/
+
+# Pipeline runtime state
+pipeline/state.json
+pipeline/.run/
+pipeline/logs/
+
+# Py
+__pycache__/
+.venv/
+*.pyc
+
+# Working scratch
+working/
+
+
